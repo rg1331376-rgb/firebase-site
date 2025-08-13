@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Hello World</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Job Application form </h1>
+  <p class="firstp">Thank you for your intrest in working with us. 
+    Please check below for available job opportunities that meet your criteria and 
+    send your application by filling out the job Application .</p>
+   <div class="name">
+
+   <label class="username">Name</label>
+  <input type="text" id="username"  name="first" placeholder="First">
+<input type="text" id="username" name="last" placeholder="Last">
+   </div>
+   <div class="email" >
+    <label id="email">Enter your Email</label>
+    <input type="text" id="email" name="email" placeholder=" Email">
+   </div>
+   <div class="selection">
+    <h3>What position are you applying for?</h3>
+    <select name="job">
+      <option value="select"> select </option>
+      <option value="intern">Intern</option>
+      <option value="pr">PR and Media</option>
+      <option value="hr">HR</option>
+      <option value="manager">Manager</option>
+    </select>
+    </div>
+        
+      <h3>Available date</h3>
+      <input type="date" name="birthdate">
+      <div class="radio">
+        <h3>What is your current employee status?</h3>
+        <input type="radio" id="employed" name="status" value="employed">
+        <label for="employed">Employed</label>
+        <input type="radio" id="unemployed" name="status" value="unemployed">
+        <label for="unemployed">Unemployed</label>
+        <input type="radio" id="self-employed" name="status" value="self-employed">
+        <label for="self-employed">Self-employed</label>
+        <input type="radio" id="student" name="status" value="student">
+        <label for="student">Student</label>
+      
+      </div>
+      <h3>Please upload your resume</h3>
+      <input type="file" name="fileupload">
+      <p> Tell us more about yourself</p>
+      <label id="comment"></label>
+      <textarea id="comment" name="comment" rows="5" cols="50"></textarea>
+      <br>
+      <input type="checkbox" name="agree" id="agree">
+      <label for="agree">I have filled and read all the above information </label>
+      <br>
+      <button class="reset" type="reset">Reset</button>
+      <button class="submit" type="submit">Submit</button>
+    </form>
+      </body>
+    
+    </html>
+
+
+
